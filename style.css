@@ -110,7 +110,7 @@ main {
     font: "open sans", "sans serif";
 }
 
-/* .ad-title{
+.ad-title{
     font-weight: 500;
     font-size: 24px;
 }
@@ -118,7 +118,7 @@ main {
 .ad-text {
     color:rgba(234, 239, 238, 0.933);
 
-} */
+}
 
 .second-btn {
     padding: 10px 35px;
