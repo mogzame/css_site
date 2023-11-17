@@ -96,7 +96,7 @@ main {
 .top>.text{
     flex: 0 0 auto;
 }
-
+/* 
 .ad {
     display: flex;
     gap: 70px;
@@ -108,9 +108,9 @@ main {
     border-radius: 20px;
     color: #F9FAF8;
     font: "open sans", "sans serif";
-}
+} */
 
-.ad-title{
+/* .ad-title{
     font-weight: 500;
     font-size: 24px;
 }
@@ -118,7 +118,7 @@ main {
 .ad-text {
     color:rgba(234, 239, 238, 0.933);
 
-}
+} */
 
 .second-btn {
     padding: 10px 35px;
