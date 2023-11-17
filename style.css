@@ -1,9 +1,4 @@
 
-html {
-    padding: 0 55px;
-    
-}
-
 body {
     display: flex;
     flex-direction: column;
@@ -12,25 +7,36 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 1px rgb(217, 9, 9) dotted;
-    font-family: roboto;
+/*     border: 1px rgb(217, 9, 9) dotted;
+ */    font-family: roboto;
 
 }
+
+header, .quote{
+    padding: 0 100px;
+}
+
+ header, footer {
+    background-color: #1F2937;
+ }
 
 header {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    background-color: #1F2937;
+    gap: 10px;
     color: #E5E7EB;
+    padding: 0 180px;
 }
-
-
 
 .head {
     display: flex;
     gap: 25px;
-    padding-top: 18px;
+    padding-top: 15px;
+    align-items: center;
+}
+
+.logo {
+    width: 35px;
 }
 
 .leg {
@@ -39,10 +45,33 @@ header {
     gap: 30px;
     justify-content: center;
     flex: 0 1 auto;
+    height: 420px;
 }
 
+.main.image {
+    width: 400px;
+    flex: 0 0 auto;
+
+}
 .text.one {
     margin-left: auto;
+}
+
+.first-btn {
+    margin-top: 1em;
+    padding: 10px 35px;
+    background-color: #3882F8;
+    color: #F9FAF8;
+    font-size: 1.2em;
+    font-weight: 500;
+    border-radius: 15px;
+}
+
+
+
+button {
+    border-radius: 15px;
+    flex: 0 0 auto;
 }
 
 /* .main.image {
@@ -54,26 +83,64 @@ main {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    align-items: stretch;
     
 }
 
 .illust {
     display: flex;
+    justify-content: space-evenly;
+    padding: 10px 40px;
+}
+
+.top>.text{
+    flex: 0 0 auto;
 }
 
 .ad {
     display: flex;
     gap: 70px;
-    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882F8;
+    margin: 80px 200px;
+    padding: 30px 70px;
+    border-radius: 20px;
+    color: #F9FAF8;
 }
 
-.illust img {
-    width: 200px;
-    height: 200px;
+.ad-title{
+    font-weight: 500;
+    font-size: 24px;
 }
+
+.ad-text {
+    color:rgba(234, 239, 238, 0.933);
+
+}
+
+.second-btn {
+    padding: 10px 35px;
+    background-color: #3882F8;
+    color: #F9FAF8;
+    font-size: 1.1em;
+    font-weight: 500;
+    border-radius: 15px;
+    border: #F9FAF8 3px solid;
+}
+
+.illust img, .secondary.text {
+    width: 200px;
+    text-wrap: wrap;
+}
+
 
 footer {
     text-align: center;
+    color:rgba(206, 212, 211, 0.933);
+    padding: 20px 0;
+    font-size: 1.2rem;
+    margin-top: auto;
 }
 
 .right {
@@ -83,5 +150,48 @@ footer {
 
 .left {
    flex: 0 1 400px
+}
 
+.hero {
+    font-weight:bolder;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.head>.text>a{
+    font-size: 18px;
+    color:rgba(206, 212, 211, 0.933);
+    text-decoration: none;
+}
+
+.para.text {
+    color:rgba(206, 212, 211, 0.933);
+}
+
+.text-info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 25px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 200px;
+    margin-top: 15px;
+}
+
+.philo {
+    font-weight: 400;
+    align-self: flex-end;
+    font-size: 0.75em;
+    color:#1F2937;
+}
+
+button:hover {
+    cursor: pointer;
 }
